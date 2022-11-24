@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/twitter-logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="left">
+      <div>
+        <a href="index.html" class="logo-link"
+          ><img src="icons/twitter-logo.svg" alt="Twitter Logo"
+        /></a>
+        <nav>
+          <ul>
+            <li>
+              <a href="" class="active"
+                ><img src="icons/home.svg" alt="Home Icon" />
+                <span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="icons/explore.svg" alt="Explore Icon" />
+                <span>Explore</span></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="icons/notifications.svg"
+                  alt="Notification Icon"
+                /><span>Notifications</span></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="icons/messages.svg" alt="Message Icon" />
+                <span>Messages</span></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="icons/bookmarks.svg" alt="Bookmark Icon" /><span
+                  >Bookmarks</span
+                ></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="icons/lists.svg" alt="List Icon" /><span
+                  >Lists</span
+                ></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="icons/profile.svg" alt="Profile Icon" /><span
+                  >Profile</span
+                ></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="icons/more-circled.svg"
+                  alt="Circled Three Dots Icon"
+                /><span>More</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button>
+          <img src="icons/tweet.svg" alt="Tweet Icon" />
+          <span>Tweet</span>
+        </button>
+      </div>
+      <div class="user-picture-container">
+        <img
+          class="user-picture"
+          src="profile-pictures/profile-picture-1.jpg"
+          alt=""
+        />
+        <div class="user-picture-info-container">
+          <div class="user-picture-info">
+            <p class="user-name bold">Wil-jan</p>
+            <p class="gray">@wiljaaan_</p>
+          </div>
+          <img class="icons" src="icons/more.svg" alt="" />
+        </div>
+      </div>
+    </header>
+    <div class="mid-right-container">
+      <div class="container">
+        <header class="mid">
+          <a href="index.html" class="home-link">Home</a>
+          <div class="icon-container gray">
+            <img class="icons" src="icons/top-tweets.svg" alt="" />
+            <!-- <div class="icon-tooltips">Top Tweets</div> -->
+          </div>
+        </header>
+        <section class="user-tweet">
+          <img
+            class="profile-picture"
+            src="profile-pictures/profile-picture-1.jpg"
+            alt=""
+          />
+          <div>
+            <input type="text" placeholder="What's Happening?" />
+            <div>
+              <ul class="user-tools">
+                <li>
+                  <div class="icon-container blue">
+                    <img src="icons/media.svg" alt="Media Icon" /><span
+                      class="icon-tooltips"
+                      >Media</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-container blue">
+                    <img src="icons/gif.svg" alt="GIF Icon" />
+                    <span class="icon-tooltips">GIF</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-container blue">
+                    <img src="icons/poll.svg" alt="Poll Icon" />
+                    <span class="icon-tooltips">Poll</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-container blue">
+                    <img src="icons/emoji.svg" alt="Emoji Icon" /><span
+                      class="icon-tooltips"
+                      >Emoji</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-container blue">
+                    <img src="icons/schedule.svg" alt="Schedule Icon" /><span
+                      class="icon-tooltips"
+                      >Schedule</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-container blue">
+                    <img src="icons/location.svg" alt="Location Icon" /><span
+                      class="icon-tooltips"
+                      >Location</span
+                    >
+                  </div>
+                </li>
+              </ul>
+              <button class="user-button">Tweet</button>
+            </div>
+          </div>
+        </section>
+        <button class="show-button">Show 9 Tweets</button>
+        <main>
+          <section>
+            <div class="tweet-topic">
+              <img class="icons" src="icons/message.svg" alt="Message Icon" />
+              <div>
+                <div>
+                  <div class="topic-container">
+                    <h1>Technology</h1>
+                    <div class="topic-tooltips">
+                      <h1>Technology</h1>
+                      <h2>All about technology</h2>
+                      <p>
+                        Following this Topic will help personalize Home timeline
+                        and experience across Twitter
+                      </p>
+                      <button>Following</button>
+                    </div>
+                  </div>
+                  <span>&middot;</span>
+                  <a href="" class="bold blue">See more</a>
+                </div>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/dismiss.svg" alt="Close Icon" />
+                  <!-- <div class="icon-tooltips">Dismiss</div> -->
+                </div>
+              </div>
+            </div>
+            <div class="tweet">
+              <img
+                class="profile-picture"
+                src="profile-pictures/profile-picture-2.jpg"
+                alt=""
+              />
+              <div class="tweet-info">
+                <div class="tweet-account">
+                  <div>
+                    <div class="account-container">
+                      <h2>Fox News</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-2.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>Fox News</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@FoxNews</h2>
+                        <p>
+                          Follow America's #1 cable news network, delivering you
+                          breaking news, insightful analysis, and must-see
+                          videos.
+                          <a href="" class="blue">foxnews.com/contact</a>
+                        </p>
+                        <div class="account-stats">
+                          <p><span>261</span> Following</p>
+                          <p><span>22.7M</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img
+                      class="icons"
+                      src="icons/verified.svg"
+                      alt="Verified Icon"
+                    />
+                    <a href="">@FoxNews</a>
+                    <span>&middot;</span>
+                    <span>9h</span>
+                  </div>
+                  <div class="icon-container blue">
+                    <img
+                      class="icons"
+                      src="icons/more.svg"
+                      alt="Three Dots Icon"
+                    />
+                  </div>
+                </div>
+                <p class="tweet-title">
+                  BREAKING: Elon Musk fires Twitter's top brass after closing
+                  $44 billion deal: reports
+                </p>
+                <div class="thumbnail-container">
+                  <img
+                    class="thumbnail thumbnail-1"
+                    src="thumbnails/thumbnail-1.jfif"
+                    alt=""
+                  />
+                  <div class="thumbnail-description">
+                    <a href="">foxbusiness.com</a>
+                    <p>
+                      Elon Musk fires Twitter's top brass after closing $44
+                      billion deal: reports
+                    </p>
+                  </div>
+                </div>
+                <div class="tweet-stats">
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/reply.svg"
+                        alt="Reply Icon"
+                      />
+                    </div>
+                    <span>1,773</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/retweet.svg"
+                        alt="Retweet Icon"
+                      />
+                    </div>
+                    <span>2,597</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/like.svg"
+                        alt="Heart Icon"
+                      />
+                    </div>
+                    <span>23.4k</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/share.svg"
+                        alt="Share Icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="tweet-topic">
+              <img class="icons" src="icons/message.svg" alt="Message Icon" />
+              <div>
+                <div>
+                  <div class="topic-container">
+                    <h1>Gaming</h1>
+                    <div class="topic-tooltips">
+                      <h1>Gaming</h1>
+                      <h2>All about gaming</h2>
+                      <p>
+                        Following this Topic will help personalize Home timeline
+                        and experience across Twitter
+                      </p>
+                      <button>Following</button>
+                    </div>
+                  </div>
+                  <span>&middot;</span>
+                  <a href="" class="bold blue">See more</a>
+                </div>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/dismiss.svg" alt="Close Icon" />
+                </div>
+              </div>
+            </div>
+            <div class="tweet">
+              <div class="profile-picture-container">
+                <img
+                  class="profile-picture"
+                  src="profile-pictures/profile-picture-3.jpg"
+                  alt=""
+                />
+                <div class="line"></div>
+              </div>
+              <div class="tweet-info">
+                <div class="tweet-account">
+                  <div>
+                    <div class="account-container">
+                      <h2>Dexerto</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-3.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>Dexerto</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@Dexerto</h2>
+                        <p>
+                          Influencers, gaming and esport news. Also
+                          <a href="" class="blue">@DexertoEsports</a> and
+                          <a href="" class="blue">@DexertoGaming.</a>
+                        </p>
+                        <div class="account-stats">
+                          <p><span>762</span> Following</p>
+                          <p><span>278.9K</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img
+                      class="icons"
+                      src="icons/verified.svg"
+                      alt="Verified Icon"
+                    />
+                    <a href="">@Dexerto</a>
+                    <span>&middot;</span>
+                    <span>22h</span>
+                  </div>
+                  <div class="icon-container blue">
+                    <img
+                      class="icons"
+                      src="icons/more.svg"
+                      alt="Three Dots Icon"
+                    />
+                  </div>
+                </div>
+                <p class="tweet-title">
+                  Poor guy just wanted a break after work
+                </p>
+                <div class="thumbnail-container">
+                  <img
+                    class="thumbnail thumbnail-2"
+                    src="thumbnails/thumbnail-2.jfif"
+                    alt=""
+                  />
+                </div>
+                <div class="tweet-stats">
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/reply.svg"
+                        alt="Reply Icon"
+                      />
+                    </div>
+                    <span>214</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/retweet.svg"
+                        alt="Retweet Icon"
+                      />
+                    </div>
+                    <span>4,141</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/like.svg"
+                        alt="Heart Icon"
+                      />
+                    </div>
+                    <span>84.5k</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/share.svg"
+                        alt="Share Icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="show-thread">
+              <img
+                class="profile-picture"
+                src="profile-pictures/profile-picture-3.jpg"
+                alt=""
+              />
+              <span>Show this thread</span>
+            </div>
+          </section>
+          <section class="who-to-follow">
+            <div class="section-title">
+              <h3>Who to follow</h3>
+              <div class="icon-container blue">
+                <img class="icons" src="icons/more.svg" alt="Three Dots Icon" />
+              </div>
+            </div>
+            <div class="section-info">
+              <img
+                class="profile-picture"
+                src="profile-pictures/profile-picture-4.jpg"
+                alt=""
+              />
+              <div>
+                <div class="account-info">
+                  <div>
+                    <div class="account-container">
+                      <h2>Twitter</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-4.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>Twitter</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@Twitter</h2>
+                        <p>What's happening?!</p>
+                        <div class="account-stats">
+                          <p><span>6</span> Following</p>
+                          <p><span>64.4M</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img class="icons" src="icons/verified.svg" alt="" />
+                    <a href="">@Twitter</a>
+                  </div>
+                  <button class="follow-button">Follow</button>
+                </div>
+                <p>What's happening?!</p>
+              </div>
+            </div>
+            <div class="section-info">
+              <img
+                class="profile-picture"
+                src="profile-pictures/profile-picture-5.jpg"
+                alt=""
+              />
+              <div>
+                <div class="account-info">
+                  <div>
+                    <div class="account-container">
+                      <h2>ESPN</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-5.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>ESPN</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@espn</h2>
+                        <p>Serving sports fans. Anytime. Anywhere.</p>
+                        <div class="account-stats">
+                          <p><span>431</span> Following</p>
+                          <p><span>42.7M</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img class="icons" src="icons/verified.svg" alt="" />
+                    <a href="">@espn</a>
+                  </div>
+                  <button class="follow-button">Follow</button>
+                </div>
+                <p>Serving sports fans. Anytime. Anywhere.</p>
+              </div>
+            </div>
+            <div class="section-info">
+              <img
+                class="profile-picture"
+                src="profile-pictures/profile-picture-6.jpg"
+                alt=""
+              />
+              <div>
+                <div class="account-info">
+                  <div>
+                    <div class="account-container">
+                      <h2>Robi Domingo</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-6.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>Robi Domingo</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@robertmarion</h2>
+                        <p>
+                          | noun | linking verb| noun/verb/adjective | ---
+                          message me:
+                          <a href="" class="blue">askrobid@gmailcom</a>.
+                        </p>
+                        <div class="account-stats">
+                          <p><span>472</span> Following</p>
+                          <p><span>37.2M</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img class="icons" src="icons/verified.svg" alt="" />
+                    <a href="">@robertmarion</a>
+                  </div>
+                  <button class="follow-button">Follow</button>
+                </div>
+                <p>
+                  | noun | linking verb| noun/verb/adjective | --- message me:
+                  askrobid@gmail.com show-thre
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="tweet-topic">
+              <img class="icons" src="icons/message.svg" alt="Message Icon" />
+              <div>
+                <div>
+                  <div class="topic-container">
+                    <h1>Travel</h1>
+                    <div class="topic-tooltips">
+                      <h1>Travel</h1>
+                      <h2>All about travel</h2>
+                      <p>
+                        Following this Topic will help personalize Home timeline
+                        and experience across Twitter
+                      </p>
+                      <button>Following</button>
+                    </div>
+                  </div>
+                  <span>&middot;</span>
+                  <a href="" class="bold blue">See more</a>
+                </div>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/dismiss.svg" alt="Close Icon" />
+                </div>
+              </div>
+            </div>
+            <div class="tweet">
+              <div class="profile-picture-container">
+                <img
+                  class="profile-picture"
+                  src="profile-pictures/profile-picture-9.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tweet-info">
+                <div class="tweet-account">
+                  <div>
+                    <div class="account-container">
+                      <h2>Cincinnati Zoo</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-9.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>Cincinnati Zoo</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@CincinnatiZoo</h2>
+                        <p>
+                          The
+                          <a href="" class="blue">#greenestzooinamerica</a> is
+                          dedicated to reating adventure, conveying knowledge,
+                          conserving nature, and serving the community. Home of
+                          Fiona the hippo.
+                        </p>
+                        <div class="account-stats">
+                          <p><span>1,798</span> Following</p>
+                          <p><span>293.7K</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img
+                      class="icons"
+                      src="icons/verified.svg"
+                      alt="Verified Icon"
+                    />
+                    <a href="">@CincinnatiZoo</a>
+                    <span>&middot;</span>
+                    <span>16h</span>
+                  </div>
+                  <div class="icon-container blue">
+                    <img
+                      class="icons"
+                      src="icons/more.svg"
+                      alt="Three Dots Icon"
+                    />
+                  </div>
+                </div>
+                <p class="tweet-title">Smile!</p>
+                <div class="thumbnail-container">
+                  <img
+                    class="thumbnail thumbnail-2"
+                    src="thumbnails/thumbnail-3.jfif"
+                    alt=""
+                  />
+                </div>
+                <div class="tweet-stats">
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/reply.svg"
+                        alt="Reply Icon"
+                      />
+                    </div>
+                    <span>71</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/retweet.svg"
+                        alt="Retweet Icon"
+                      />
+                    </div>
+                    <span>907</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/like.svg"
+                        alt="Heart Icon"
+                      />
+                    </div>
+                    <span>10.6</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/share.svg"
+                        alt="Share Icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="yt">
+            <div class="tweet">
+              <div class="profile-picture-container">
+                <img
+                  class="profile-picture"
+                  src="profile-pictures/profile-picture-8.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tweet-info">
+                <div class="tweet-account">
+                  <div>
+                    <div class="account-container">
+                      <h2>YouTube</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-8.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>YouTube</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@YouTube</h2>
+                        <p>like and subscribe.</p>
+                        <div class="account-stats">
+                          <p><span>1,201</span> Following</p>
+                          <p><span>77.8M</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img
+                      class="icons"
+                      src="icons/verified.svg"
+                      alt="Verified Icon"
+                    />
+                    <a href="">@YouTube</a>
+                    <span>&middot;</span>
+                    <span>8h</span>
+                  </div>
+                  <div class="icon-container blue">
+                    <img
+                      class="icons"
+                      src="icons/more.svg"
+                      alt="Three Dots Icon"
+                    />
+                  </div>
+                </div>
+                <p class="tweet-title">
+                  no self-care routine is complete without
+                </p>
+                <div class="survey">
+                  <button>yoga videos</button>
+                  <button>10 hour ambient videos</button>
+                  <button>a lil snack</button>
+                </div>
+                <p>5,012 <span>&middot;</span> 15 hours left</p>
+                <div class="tweet-stats">
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/reply.svg"
+                        alt="Reply Icon"
+                      />
+                    </div>
+                    <span>110</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/retweet.svg"
+                        alt="Retweet Icon"
+                      />
+                    </div>
+                    <span>57</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/like.svg"
+                        alt="Heart Icon"
+                      />
+                    </div>
+                    <span>494</span>
+                  </div>
+                  <div>
+                    <div class="icon-container blue">
+                      <img
+                        class="icons"
+                        src="icons/share.svg"
+                        alt="Share Icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <article>
+            <img
+              class="keychain"
+              src="icons/keychain.png"
+              alt="An image of keychain with blue background"
+            />
+            <h3>See more of what you like on twitter</h3>
+            <p>
+              Like Tweets to get better reccomendations in your timeline - why
+              not start with three?
+            </p>
+            <div class="article-stats">
+              <div class="article-likes">
+                <div class="pink-heart-container">
+                  <img
+                    class="icons"
+                    src="icons/heart-colored.svg"
+                    alt="Pink heart"
+                  />
+                </div>
+                <span>3 likes to go</span>
+              </div>
+              <div>
+                <img
+                  class="icons"
+                  src="icons/heart-gray.svg"
+                  alt="Gray heart"
+                />
+                <img
+                  class="icons"
+                  src="icons/heart-gray.svg"
+                  alt="Gray heart"
+                />
+                <img
+                  class="icons"
+                  src="icons/heart-gray.svg"
+                  alt="Gray heart"
+                />
+              </div>
+            </div>
+          </article>
+        </main>
+      </div>
+      <div class="right-container">
+        <section class="right">
+          <input type="text" placeholder="Search Twitter" />
+          <div class="trends">
+            <h3>Trends for you</h3>
+            <div class="trends-info">
+              <div>
+                <h4>Music <span>&middot;</span> Trending</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">Lisa</p>
+              <p>423K Tweets</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>Trending in Philippines</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">#ProofNaMayMumu</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>Music <span>&middot;</span> Trending</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">Jennie</p>
+              <p>198K Tweets</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>Trending in Philippines</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">sassa gurl</p>
+              <p>1,425 Tweets</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>Trending in Philippines</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">Cavite</p>
+              <p>8,379 Tweets</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>Trending in Philippines</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">Eduardo V. Manalo</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>Trending in Philippines</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">#PaengPH</p>
+              <p>39K Tweets</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>K-pop <span>&middot;</span> Trending</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">#JENLISA</p>
+              <p>42.2K Tweets</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>Trending in Philippines</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">DATI-DATI OFFICIAL MV</p>
+              <p>4,424 Tweets</p>
+            </div>
+            <div class="trends-info">
+              <div>
+                <h4>Politics <span>&middot;</span> Trending</h4>
+                <div class="icon-container blue">
+                  <img class="icons" src="icons/more.svg" alt="" />
+                </div>
+              </div>
+              <p class="trends-title bold">Leni</p>
+              <p>3,295 Tweets</p>
+            </div>
+            <div class="show-more blue">Show More</div>
+          </div>
+          <section class="who-to-follow right">
+            <div class="section-title">
+              <h3>Who to follow</h3>
+              <div class="icon-container blue">
+                <img class="icons" src="icons/more.svg" alt="Three Dots Icon" />
+              </div>
+            </div>
+            <div class="section-info">
+              <img
+                class="profile-picture"
+                src="profile-pictures/profile-picture-11.jpg"
+                alt=""
+              />
+              <div>
+                <div class="account-info">
+                  <div>
+                    <div class="account-container">
+                      <h2>Google</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-11.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>Google</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@Google</h2>
+                        <p class="blue">#Hey Google</p>
+                        <div class="account-stats">
+                          <p><span>295</span> Following</p>
+                          <p><span>27.3M</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img class="icons" src="icons/verified.svg" alt="" />
+                    <a href="">@Google</a>
+                  </div>
+                  <button class="follow-button">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="section-info">
+              <img
+                class="profile-picture"
+                src="profile-pictures/profile-picture-8.jpg"
+                alt=""
+              />
+              <div>
+                <div class="account-info">
+                  <div>
+                    <div class="account-container">
+                      <h2>YouTube Creators</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-8.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>YouTube Creators</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@YouTubeCreators</h2>
+                        <p>
+                          For tools, tips, inspiration and news for
+                          <a href="" class="blue">@YouTube</a>
+                          Creators.
+                        </p>
+                        <div class="account-stats">
+                          <p><span>2,077</span> Following</p>
+                          <p><span>6.6M</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img class="icons" src="icons/verified.svg" alt="" />
+                    <a href="">@YouTubeCreators</a>
+                  </div>
+                  <button class="follow-button">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="section-info">
+              <img
+                class="profile-picture"
+                src="profile-pictures/profile-picture-12.jpg"
+                alt=""
+              />
+              <div>
+                <div class="account-info">
+                  <div>
+                    <div class="account-container">
+                      <h2>Recipe Ideas</h2>
+                      <div class="account-tooltips">
+                        <div>
+                          <img
+                            class="profile-picture"
+                            src="profile-pictures/profile-picture-12.jpg"
+                            alt=""
+                          />
+                          <button>Follow</button>
+                        </div>
+                        <div>
+                          <h1>Recipe Ideas</h1>
+                          <img class="icons" src="icons/verified.svg" alt="" />
+                        </div>
+                        <h2>@RecipesIdeas</h2>
+                        <p>A recipe collection.</p>
+                        <div class="account-stats">
+                          <p><span>16.6K</span> Following</p>
+                          <p><span>441.8K</span> Followers</p>
+                        </div>
+                      </div>
+                    </div>
+                    <img class="icons" src="icons/verified.svg" alt="" />
+                    <a href="">@RecipesIdeas</a>
+                  </div>
+                  <button class="follow-button">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="show-more blue">Show More</div>
+          </section>
+          <footer>
+            <ul>
+              <li>
+                <a href="">Terms of Service</a>
+              </li>
+              <li>
+                <a href="">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="">Cookie Policy</a>
+              </li>
+              <li>
+                <a href="">Accesibility</a>
+              </li>
+              <li>
+                <a href="">Ads info</a>
+              </li>
+              <li>
+                <a href="">More <span>&middot;&middot;&middot;</span></a>
+              </li>
+              <li class="gray">&copy; 2022 Twitter, Inc.</li>
+            </ul>
+          </footer>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
